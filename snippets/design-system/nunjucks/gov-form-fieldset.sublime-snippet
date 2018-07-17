@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+{{ govukFieldset({
+	legend: {
+		text: "${1:Legend text}",
+		classes: "govuk-fieldset__legend--${2:xl|l|m}",
+		isPageHeading: ${3:true|false}
+	}
+}) }}$4
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-form-fieldset</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Form fieldset – GOV.UK Design System</desciption>
+</snippet>

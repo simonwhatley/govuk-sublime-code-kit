@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+{{ govukInput({
+	id: "national-insurance-number",
+	name: "national-insurance-number",
+	label: {
+		text: "National insurance number"
+	},
+	hint: {
+		text: "It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’."
+	},
+	classes: "govuk-input--width-10"
+}) }}$1
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-form-nino</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>National Insurance Number (NINO) – GOV.UK Design System</desciption>
+</snippet>

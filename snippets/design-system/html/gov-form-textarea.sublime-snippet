@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-form-textarea</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Textarea – GOV.UK Design System</desciption>
+</snippet>

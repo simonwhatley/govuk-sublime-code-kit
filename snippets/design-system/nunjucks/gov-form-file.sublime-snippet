@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+{{ govukFileUpload({
+	id: "${1:file-upload-1}",
+	name: "${1:file-upload-1}",
+	label: {
+		text: "${2:Upload a file}"
+	}
+}) }}$3
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-form-file</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>File upload – GOV.UK Design System</desciption>
+</snippet>

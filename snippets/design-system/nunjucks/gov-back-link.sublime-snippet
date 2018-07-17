@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+{{ govukBackLink({
+	text: "${1:Back}",
+	href: "${2:#}"
+}) }}$3
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-back-link</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Back link – GOV.UK Design System</desciption>
+</snippet>
