@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<hr class="govuk-section-break govuk-section-break--${1:size} govuk-section-break--visible">
+<hr class="govuk-section-break govuk-section-break--${1:size} govuk-section-break--visible">$1
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-section-break</tabTrigger>
