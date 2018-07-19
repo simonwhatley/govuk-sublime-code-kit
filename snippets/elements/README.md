@@ -13,9 +13,9 @@ Using the GOV.UK Elements Nunjucks snippets requires the installation of the [GO
 |[Bulleted lists](https://govuk-elements.herokuapp.com/)|`gov-list-bulleted`|HTML, Nunjucks||
 |[Button](https://govuk-elements.herokuapp.com/)|`gov-form-button`|HTML, Nunjucks||
 |[Caption](https://govuk-elements.herokuapp.com/typography/)|`gov-caption`|HTML, Nunjucks||
+|[Checkboxes](https://govuk-elements.herokuapp.com/)|`gov-form-checkboxes`|HTML, Nunjucks||
 |Checkbox option|`gov-form-checkbox-option`|HTML|Use in conjunction with the `gov-form-checkboxes` HTML snippet.|
 |Checkbox, radio and selection option|`gov-form-option`|Nunjucks|Use in conjunction with the `gov-form-checkboxes`, `gov-form-radios` and `gov-form-select` Nunjucks snippets.|
-|[Checkboxes](https://govuk-elements.herokuapp.com/)|`gov-form-checkboxes`|HTML, Nunjucks||
 |[Dates](https://govuk-elements.herokuapp.com/form-elements/example-date/)|`gov-form-date`|HTML, Nunjucks||
 |[Details](https://govuk-elements.herokuapp.com/)|`gov-details`|HTML, Nunjucks||
 |[Error summary](https://govuk-elements.herokuapp.com/)|`gov-error-summary`|HTML, Nunjucks||
@@ -48,16 +48,16 @@ Using the GOV.UK Elements Nunjucks snippets requires the installation of the [GO
 |[Paragraph body text large](https://govuk-elements.herokuapp.com/typography/)|`gov-paragraph-body-lead`|HTML, Nunjucks||
 |[Paragraph body text small](https://govuk-elements.herokuapp.com/typography/)|`gov-paragraph-body-small`|HTML, Nunjucks||
 |[Phase banner](https://govuk-elements.herokuapp.com/)|`gov-phase-banner`|HTML, Nunjucks||
-|Radio option|`gov-form-radio-option`|HTML|Use in conjunction with the `gov-form-radios` HTML snippet.|
 |[Radios](https://govuk-elements.herokuapp.com/)|`gov-form-radios`|HTML, Nunjucks||
+|Radio option|`gov-form-radio-option`|HTML|Use in conjunction with the `gov-form-radios` HTML snippet.|
 |[Section break](https://govuk-elements.herokuapp.com/typography/)|`gov-section-break`|HTML, Nunjucks||
 |[Select](https://govuk-elements.herokuapp.com/)|`gov-form-select`|HTML, Nunjucks||
 |Select option|`gov-form-select-option`|HTML|Use in conjunction with the `gov-form-select` HTML snippet.|
 |[Skip link](https://govuk-elements.herokuapp.com/)|`gov-skip-link`|HTML, Nunjucks||
-|Tab item|`gov-tab-item`|HTML|Use in conjunction with the `gov-tabs` HTML snippet. This snippet forms the tabs list.|
-|Tab section|`gov-tab-section`|HTML|Use in conjunction with the `gov-tabs` HTML snippet. This snippet forms the tab's content.|
 |[Tables](https://govuk-elements.herokuapp.com/)|`gov-table`|HTML, Nunjucks||
 |[Tabs](https://govuk-elements.herokuapp.com/)|`gov-tabs`|HTML, Nunjucks||
+|Tab item|`gov-tab-item`|HTML|Use in conjunction with the `gov-tabs` HTML snippet. This snippet forms the tabs list.|
+|Tab section|`gov-tab-section`|HTML|Use in conjunction with the `gov-tabs` HTML snippet. This snippet forms the tab's content.|
 |[Tags](https://govuk-elements.herokuapp.com/)|`gov-tag`|HTML, Nunjucks||
 |[Text input](https://govuk-elements.herokuapp.com/)|`gov-form-input`|HTML, Nunjucks||
 |[Textarea](https://govuk-elements.herokuapp.com/)|`gov-form-textarea`|HTML, Nunjucks||
