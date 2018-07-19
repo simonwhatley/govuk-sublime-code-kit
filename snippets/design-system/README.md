@@ -3,7 +3,7 @@
 ## Available snippets
 
 |Name|Shortcut|Snippet set|Notes|
-|---|---|---|---|
+|-------------------------|-------------------------|---|---|
 |[Addresses](https://design-system.service.gov.uk/patterns/addresses/)|`gov-form-address`|HTML, Nunjucks||
 |[Back link](https://design-system.service.gov.uk/components/back-link/)|`gov-back-link`|HTML, Nunjucks||
 |[Breadcrumbs](https://design-system.service.gov.uk/components/breadcrumbs/)|`gov-breadcrumbs`|HTML, Nunjucks||
