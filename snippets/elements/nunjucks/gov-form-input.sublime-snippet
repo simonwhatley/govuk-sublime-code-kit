@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+{{ govukInput({
+	id: "$1",
+	name: "$1",
+	label: {
+		text: "${2:Label text}"
+	},
+	hint: {
+		text: "${3:Hint text}"
+	}
+}) }}$4
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-form-input</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Text input – GOV.UK Elements</desciption>
+</snippet>

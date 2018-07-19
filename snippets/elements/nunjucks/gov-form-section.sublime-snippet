@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-section">
+	$1
+</div>$2
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-form-section</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Form section – GOV.UK Elements</desciption>
+</snippet>

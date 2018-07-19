@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="grid-row">
+	<div class="column-one-third">
+		$1
+	</div>
+	<div class="column-two-thirds">
+		$2
+	</div>
+</div>$3
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-layout-one-third-two-thirds</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Layout one-third / two-thirds – GOV.UK Elements</desciption>
+</snippet>

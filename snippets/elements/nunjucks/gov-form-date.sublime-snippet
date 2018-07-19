@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+{{ govukDateInput({
+	id: "${1:date}",
+	name: "${1:date}",
+	fieldset: {
+		legend: {
+			text: "${2:Legend text}",
+			isPageHeading: ${3:true},
+			classes: "govuk-fieldset__legend--${4:xl}"
+		}
+	},
+	hint: {
+		text: "${5:For example, 31 3 1980}"
+	},
+	items: [
+		{
+			name: "day"
+		},
+		{
+			name: "month"
+		},
+		{
+			name: "year"
+		}
+	]
+}) }}$6
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-forn-date</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Dates – GOV.UK Elements</desciption>
+</snippet>

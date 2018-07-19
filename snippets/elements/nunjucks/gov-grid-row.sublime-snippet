@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="grid-row">
+	$1
+</div>$2
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-grid-row</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Grid row – GOV.UK Elements</desciption>
+</snippet>

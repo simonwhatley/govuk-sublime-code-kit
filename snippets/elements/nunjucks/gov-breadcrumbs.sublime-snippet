@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+{{ govukBreadcrumbs({
+	items: [
+		${1:Use gov-link-item snippet}
+	]
+}) }}$3
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-breadcrumbs</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Breadcrumbs – GOV.UK GOV.UK Elements</desciption>
+</snippet>

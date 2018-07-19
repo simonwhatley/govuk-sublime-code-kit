@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+{{ govukRadios({
+	idPrefix: "$1",
+	name: "$1",
+	fieldset: {
+		legend: {
+			text: "${2:Legend text}",
+			isPageHeading: ${3:true},
+			classes: "govuk-fieldset__legend--${4:xl}"
+		}
+	},
+	hint: {
+		text: "$5"
+	},
+	items: [
+		${6:Use gov-form-option snippet}
+	]
+}) }}$7
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-form-radios</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Radios – GOV.UK Elements</desciption>
+</snippet>

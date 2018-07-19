@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+{{ govukErrorSummary({
+	titleText: "${1:There is a problem}",
+	errorList: [
+		${2:Use gov-link-item snippet}
+	]
+}) }}$3
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-error-summary</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Error summary – GOV.UK Elements</desciption>
+</snippet>
