@@ -1,6 +1,20 @@
 <snippet>
 	<content><![CDATA[
-
+<div class="govuk-form-group">
+	<fieldset class="govuk-fieldset" aria-describedby="$1-hint">
+		<legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+			<h1 class="govuk-fieldset__heading">
+				${2:Legend text}
+			</h1>
+		</legend>
+		<span id="$1-hint" class="govuk-hint">
+			${3:Hint text}
+		</span>
+		<div class="govuk-radios"><!-- Optional class: govuk-radios--inline -->
+			${4:Use gov-form-radio-option snippet}
+		</div>
+	</fieldset>
+</div>$5
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-form-radios</tabTrigger>

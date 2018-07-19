@@ -1,6 +1,19 @@
 <snippet>
 	<content><![CDATA[
+<div class="govuk-tabs govuk-!-margin-bottom-6" data-module="tabs">
+	<h2 class="govuk-tabs__title">
+		Contents
+	</h2>
 
+	<ul class="govuk-tabs__list">
+
+		${1:Use gov-tab-item snippet}
+
+	</ul>
+
+	${2:Use gov-tab-section snippet}
+
+</div>$3
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-tabs</tabTrigger>

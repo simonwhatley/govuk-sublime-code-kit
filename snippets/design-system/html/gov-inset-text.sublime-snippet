@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-
+<div class="govuk-inset-text">
+	${1:Text}
+</div>
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-inset-text</tabTrigger>

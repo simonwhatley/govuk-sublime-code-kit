@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-
+<button type="submit" class="govuk-button">
+	${1:Button label text}
+</button>$2
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-form-button</tabTrigger>

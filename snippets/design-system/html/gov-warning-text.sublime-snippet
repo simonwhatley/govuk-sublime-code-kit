@@ -1,6 +1,12 @@
 <snippet>
 	<content><![CDATA[
-
+<div class="govuk-warning-text">
+	<span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+	<strong class="govuk-warning-text__text">
+		<span class="govuk-warning-text__assistive">${1:Fallback text}</span>
+		${2:Warning text}
+	</strong>
+</div>$3
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-warning-text</tabTrigger>

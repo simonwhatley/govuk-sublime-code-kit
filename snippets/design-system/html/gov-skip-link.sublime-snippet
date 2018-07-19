@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-
+<a href="#content" class="govuk-skip-link">Skip to main content</a>$1
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-skip-link</tabTrigger>

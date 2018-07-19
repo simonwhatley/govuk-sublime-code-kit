@@ -1,6 +1,10 @@
 <snippet>
 	<content><![CDATA[
-
+<li class="govuk-tabs__list-item">
+  	<a class="govuk-tabs__tab" href="#${1:section-name}">
+     	${2:Tab label}
+    </a>
+</li>$3
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-tab-item</tabTrigger>

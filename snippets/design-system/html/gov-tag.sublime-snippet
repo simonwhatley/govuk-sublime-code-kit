@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-
+<strong class="govuk-tag">
+	${1:Tag label}
+</strong>$2
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-tag</tabTrigger>

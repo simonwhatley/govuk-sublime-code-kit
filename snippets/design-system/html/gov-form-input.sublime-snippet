@@ -1,6 +1,14 @@
 <snippet>
 	<content><![CDATA[
-
+<div class="govuk-form-group">
+	<label class="govuk-label" for="${1:name}">
+		${2:Label text}
+	</label>
+	<span id="${1:name}-hint" class="govuk-hint">
+		${3:Hint text}
+	</span>
+	<input class="govuk-input" id="${1:name}" name="${1:name}" type="text" aria-describedby="${1:name}-hint">
+</div>$4
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-form-input</tabTrigger>

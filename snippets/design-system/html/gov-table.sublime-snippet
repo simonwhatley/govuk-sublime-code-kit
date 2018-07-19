@@ -1,6 +1,29 @@
 <snippet>
 	<content><![CDATA[
-
+<table class="govuk-table">
+ 	<caption class="govuk-table__caption">${1:Caption text}</caption>
+  	<thead class="govuk-table__head">
+	    <tr class="govuk-table__row">
+	      	<th class="govuk-table__header" scope="col">${2:Column 1 heading}</th>
+	      	<th class="govuk-table__header" scope="col">${3:Column 2 heading}</th>
+	    </tr>
+  	</thead>
+  	<tbody class="govuk-table__body">
+	    <tr class="govuk-table__row">
+	        <!-- First column as header. Change to normal cell if required -->
+	        <th class="govuk-table__header" scope="row">${4:Column 1, row 1}</th>
+	        <td class="govuk-table__cell">${5:Column 2, row 1}</td>
+	    </tr>
+	    <tr class="govuk-table__row">
+	      	<th class="govuk-table__header" scope="row">${6:Column 1, row 2}</th>
+	      	<td class="govuk-table__cell">${7:Column 2, row 2}</td>
+	    </tr>
+	    <tr class="govuk-table__row">
+	      	<th class="govuk-table__header" scope="row">${8:Column 1, row 3}</th>
+	      	<td class="govuk-table__cell">${9:Column 2, row 3}</td>
+	    </tr>$10
+  	</tbody>
+</table>$11
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-table</tabTrigger>

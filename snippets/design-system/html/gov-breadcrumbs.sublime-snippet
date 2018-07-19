@@ -1,6 +1,16 @@
 <snippet>
 	<content><![CDATA[
-
+<div class="govuk-breadcrumbs">
+	<ol class="govuk-breadcrumbs__list">
+		<li class="govuk-breadcrumbs__list-item">
+			<a class="govuk-breadcrumbs__link" href="#">${1:Breadcrumb item}</a>
+		</li>
+		<li class="govuk-breadcrumbs__list-item">
+			<a class="govuk-breadcrumbs__link" href="#">${2:Breadcrumb item}</a>
+		</li>$3
+		<li class="govuk-breadcrumbs__list-item" aria-current="page">${4:Breadcrumb item current}</li>
+	</ol>
+</div>$5
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-breadcrumbs</tabTrigger>

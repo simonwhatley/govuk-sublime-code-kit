@@ -1,6 +1,11 @@
 <snippet>
 	<content><![CDATA[
-
+<div class="govuk-cradios__item">
+	<input class="govuk-radios__input" id="${1:name}-1" name="${1:name}" type="radio" value="${2:value}">
+	<label class="govuk-label govuk-radios__label" for="${1:name}-1">
+		${3:Label text}
+	</label>
+</div>$4
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-radio-option</tabTrigger>

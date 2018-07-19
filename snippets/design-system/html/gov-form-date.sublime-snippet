@@ -1,6 +1,43 @@
 <snippet>
 	<content><![CDATA[
-
+<div class="govuk-form-group">
+	<fieldset class="govuk-fieldset" aria-describedby="${1:name}-hint" role="group">
+		<legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+			<h1 class="govuk-fieldset__heading">
+				${2:Date}
+			</h1>
+		</legend>
+		<span id="${1:name}-hint" class="govuk-hint">
+			${3:For example, 31 3 1980}
+		</span>
+		<div class="govuk-date-input" id="${1:name}">
+			<div class="govuk-date-input__item govuk-date-input__item--day">
+				<div class="govuk-form-group">
+					<label class="govuk-label govuk-date-input__label" for="${1:name}-day">
+						Day
+					</label>
+					<input class="govuk-input govuk-date-input__input" id="${1:name}-day" name="${1:name}-day" type="number" pattern="[0-9]*">
+				</div>
+			</div>
+			<div class="govuk-date-input__item govuk-date-input__item--month">
+				<div class="govuk-form-group">
+					<label class="govuk-label govuk-date-input__label" for="${1:name}-month">
+						Month
+					</label>
+					<input class="govuk-input govuk-date-input__input" id="${1:name}-month" name="${1:name}-month" type="number" pattern="[0-9]*">
+				</div>
+			</div>
+			<div class="govuk-date-input__item govuk-date-input__item--year">
+				<div class="govuk-form-group">
+					<label class="govuk-label govuk-date-input__label" for="${1:name}-year">
+						Year
+					</label>
+					<input class="govuk-input govuk-date-input__input" id="${1:name}-year" name="${1:name}-year" type="number" pattern="[0-9]*">
+				</div>
+			</div>
+		</div>
+	</fieldset>
+</div>$4
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-forn-date</tabTrigger>

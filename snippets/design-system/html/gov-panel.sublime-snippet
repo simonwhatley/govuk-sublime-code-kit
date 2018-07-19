@@ -1,6 +1,13 @@
 <snippet>
   <content><![CDATA[
-
+<div class="govuk-panel govuk-panel--confirmation">
+	<h2 class="govuk-panel__title">
+		${1:Title text}
+	</h2>
+	<div class="govuk-panel__body">
+		Your reference number<br><strong>${2:Reference}</strong>
+	</div>
+</div>$3
 ]]></content>
   <!-- Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>gov-panel</tabTrigger>

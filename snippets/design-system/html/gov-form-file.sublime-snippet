@@ -1,6 +1,11 @@
 <snippet>
 	<content><![CDATA[
-
+<div class="govuk-form-group">
+	<label class="govuk-label" for="${1:file-upload}-1">
+		${2:Upload a file}
+	</label>
+	<input class="govuk-file-upload" id="${1:file-upload}-1" name="${1:file-upload}-1" type="file">
+</div>$3
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-form-file</tabTrigger>

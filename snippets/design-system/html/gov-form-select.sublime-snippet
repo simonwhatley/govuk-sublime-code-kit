@@ -1,6 +1,13 @@
 <snippet>
 	<content><![CDATA[
-
+<div class="govuk-form-group">
+	<label class="govuk-label" for="${1:name}">
+		${2:Label text}
+	</label>
+	<select class="govuk-select" id="${1:name}" name="${1:name}">
+		${3:Use gov-form-select-option snippet}
+	</select>
+</div>$4
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-form-select</tabTrigger>

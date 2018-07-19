@@ -1,6 +1,15 @@
 <snippet>
 	<content><![CDATA[
-
+<details class="govuk-details">
+	<summary class="govuk-details__summary">
+		<span class="govuk-details__summary-text">
+			${1:Summary text}
+		</span>
+	</summary>
+	<div class="govuk-details__text">
+		${2:Text}
+	</div>
+</details>$3
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-details</tabTrigger>

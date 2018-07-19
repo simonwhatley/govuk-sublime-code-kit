@@ -1,6 +1,13 @@
 <snippet>
 	<content><![CDATA[
-
+<fieldset class="govuk-fieldset">
+	<!-- Size modifiers: xl, l, m -->
+	<legend class="govuk-fieldset__legend govuk-fieldset__legend--${1:xl}">
+		<h1 class="govuk-fieldset__heading">
+			${2:Legend text}
+		</h1>
+	</legend>
+</fieldset>$3
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-form-fieldset</tabTrigger>
