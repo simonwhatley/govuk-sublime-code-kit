@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
 <ol id="breadcrumb-links">
-	<li><a href="#">Link text</a></li>
-	<li><a href="#">Link text</a></li>
-	<li><a href="#">Link text</a></li>
-	<li><a href="#">Link text</a></li>
-</ol>$1
+	<li><a href="#">${1:Link text}</a></li>
+	<li><a href="#">${2:Link text}</a></li>
+	<li><a href="#">${3:Link text}</a></li>
+	<li><a href="#">${4:Link text}</a></li>
+</ol>$5
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-breadcrumbs</tabTrigger>
