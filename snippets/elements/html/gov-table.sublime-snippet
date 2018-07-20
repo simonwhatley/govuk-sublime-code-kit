@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+<table>
+	<caption class="heading-small">
+		${1:Caption text}
+	</caption>
+	<thead>
+		<tr>
+			<!-- Add class="numeric" if a numeric column -->
+			<th scope="col">${2:Column 1 heading}</th>
+			<th scope="col">${3:Column 2 heading}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<!-- First column as header. Change to normal cell if required -->
+			<th scope="row">${4:Column 1, row 1}</th>
+			<!-- Add class="numeric" if a numeric cell -->
+			<td>${5:Column 2, row 1}</td>
+		</tr>
+		<tr>
+			<th scope="row">${6:Column 1, row 2}</th>
+			<td>${7:Column 2, row 2}</td>
+			</tr>
+			<tr>
+			<th scope="row">${8:Column 1, row 3}</th>
+			<td>${9:Column 2, row 3}</td>
+		</tr>$10
+	</tbody>
+</table>$11
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-table</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Table – GOV.UK Elements</desciption>
+</snippet>

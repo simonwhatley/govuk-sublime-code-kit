@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<div class="multiple-choice">
+	<input id="${1:name}-1" name="${1:name}" type="radio" value="${2:value}">
+	<label for="${1:name}-1">
+		${3:Label text}
+	</label>
+</div>$4
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-radio-option</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Radio option – GOV.UK Elements</desciption>
+</snippet>

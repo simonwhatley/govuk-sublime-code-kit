@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="tabs" data-module="tabs">
+	<div class="tabs-nav">
+		<ul class="tabs-list">
+			${1:Use gov-tab-item snippet}
+		</ul>
+	</div>
+	${2:Use gov-tab-section snippet}
+</div>$3
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-tabs</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Tabs – GOV.UK Elements</desciption>
+</snippet>

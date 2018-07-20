@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+<div class="header-wrapper">
+	<div class="header-global">
+		<div class="header-logo">
+			<a href="${1:#}" title="${2:Title text}" id="logo" class="content">
+				<img src="/public/images/gov.uk_logotype_crown_invert_trans.png?0.23.0" width="36" height="32" alt="">
+				${3:GOV.UK}
+			</a>
+		</div>
+	</div>
+	<div class="header-proposition">
+		<div class="content">
+			<a href="#proposition-links" class="js-header-toggle menu">Menu</a>
+			<nav id="proposition-menu">
+				<a href="/" id="proposition-name">${4:Service name}</a>
+				<ul id="proposition-links">
+					<li><a href="#">Link text</a></li>
+					<li><a href="#">Link text</a></li>
+					<li><a href="#">Link text</a></li>
+					<li><a href="#">Link text</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<div id="global-header-bar"></div>$5
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-header</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Header – GOV.UK Elements</desciption>
+</snippet>

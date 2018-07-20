@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="tabs-panel" id="${1:section-name}">
+	<div class="tabs-panel-inner text">
+		<h2 class="heading-large">
+			${2:Section heading}
+		</h2>
+		${3:Section contents}
+	</div>
+</div>$4
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-tab-section</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Tab section – GOV.UK Elements</desciption>
+</snippet>

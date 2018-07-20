@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<div class="phase-banner">
+	<p>
+		<strong class="phase-tag">${1:ALPHA|BETA}</strong>
+		<span>${2:This is a new service – your <a href="#">feedback</a> will help us to improve it.}</span>
+	</p>
+</div>$3
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-phase-banner</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Phase banner – GOV.UK Elements</desciption>
+</snippet>

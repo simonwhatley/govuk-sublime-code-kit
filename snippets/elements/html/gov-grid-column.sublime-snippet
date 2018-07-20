@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+{# Column size class suffixes: full, one-half, one-third, two-thirds, one-quarter #}
+<div class="column-${1:size}">
+	$2
+</div>$3
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-grid-column</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Grid column – GOV.UK Elements</desciption>
+</snippet>

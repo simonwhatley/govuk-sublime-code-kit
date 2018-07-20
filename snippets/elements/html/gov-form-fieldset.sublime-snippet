@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<fieldset>
+	<legend>
+		{# Heading size class suffixes: xlarge, large, medium, small #}
+		<span class="heading-${1:medium}">
+			${2:Legend text}
+		</span>
+	</legend>
+	$3
+</fieldset>$4
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-form-fieldset</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Form fieldset – GOV.UK Elements</desciption>
+</snippet>

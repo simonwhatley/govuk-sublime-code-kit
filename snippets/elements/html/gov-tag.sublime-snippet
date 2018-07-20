@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<strong class="phase-tag">
+	${1:ALPHA|BETA}
+</strong>$2
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-tag</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Tags – GOV.UK Elements</desciption>
+</snippet>

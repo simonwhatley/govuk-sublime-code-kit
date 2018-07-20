@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+    <fieldset aria-describedby="$1-hint">
+        <legend>
+         	<span class="form-label-bold">
+            	${2:Legend text}
+        	</span>
+         	<span id="$1-hint" class="body-text">
+            	${3:Hint text}
+          	</span>
+        </legend>
+
+        ${4:Use gov-form-checkbox-option snippet}
+
+ 	</fieldset>
+</div>$5
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-form-checkboxes</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Checkboxes – GOV.UK Elements</desciption>
+</snippet>

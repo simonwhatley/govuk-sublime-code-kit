@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<p class="${1:font-xsmall}">
+	$2
+<p>$3
+]]></content>
+	<!-- Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gov-font-size</tabTrigger>
+	<!-- Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+	<!-- Description to show in the menu -->
+	<desciption>Font size override – GOV.UK Elements</desciption>
+</snippet>
