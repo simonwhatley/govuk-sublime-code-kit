@@ -1,22 +1,24 @@
 <snippet>
 	<content><![CDATA[
-<div class="govuk-error-summary" aria-labelledby="error-summary-title" role="alert" tabindex="-1" data-module="error-summary">
-	<h2 class="govuk-error-summary__title" id="error-summary-title">
+<div class="error-summary" role="alert" aria-labelledby="error-summary-heading" tabindex="-1">
+	<h2 class="heading-medium error-summary-heading" id="error-summary-heading">
 		${1:There is a problem}
 	</h2>
-	<p class="govuk-body">
+	<p>
 		${2:Optional description of the errors and how to correct them}
 	</p>
-	<div class="govuk-error-summary__body">
-		<ul class="govuk-list govuk-error-summary__list">
-			<li>
-				<a href="#item-1-error">${3:Error item}</a>
-			</li>
-			<li>
-				<a href="#item-2-error">${4:Error item}</a>
-			</li>$5
-		</ul>
-	</div>
+	<ul class="error-summary-list">
+		<li>
+			<a href="#item-1-error">
+				${3:Error item}
+			</a>
+		</li>
+		<li>
+			<a href="#item-2-error">
+				${4:Error item}
+			</a>
+		</li>$5
+	</ul>
 </div>$6
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->

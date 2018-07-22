@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<div class="govuk-grid-row">
+<div class="grid-row">
 	$1
 </div>$2
 ]]></content>

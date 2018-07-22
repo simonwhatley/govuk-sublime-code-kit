@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<a href="${1:#}" class="govuk-back-link">Back</a>$2
+<a href="${1:#}" class="back-link">Back</a>$2
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-back-link</tabTrigger>
