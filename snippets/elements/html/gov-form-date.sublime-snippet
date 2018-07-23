@@ -17,13 +17,13 @@
 				</label>
 				<input class="form-control" id="${1:name}-day" name="${1:name}-day" type="number" pattern="[0-9]*" min="1" max="31">
 			</div>
-			<div class="form-group-month">
+			<div class="form-group form-group-month">
 				<label class="form-label" for="${1:name}-month">
 					Month
 				</label>
 				<input class="form-control" id="${1:name}-month" name="${1:name}-month" type="number" pattern="[0-9]*" min="1" max="12">
 			</div>
-			<div class="form-group-year">
+			<div class="form-group form-group-year">
 				<label class="form-label" for="${1:name}-year">
 					Year
 				</label>
