@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
 {{ govukSelect({
-	id: "$1",
-	name: "$1",
-	label: {
-		text: "${2:Label text}"
+	"id": "$1",
+	"name": "$1",
+	"label": {
+		"text": "${2:Label text}"
 	},
-	items: [
+	"items": [
 		${3:Use gov-form-option snippet}
 	]
 }) }}$4

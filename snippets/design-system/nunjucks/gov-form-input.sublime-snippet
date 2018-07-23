@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
 {{ govukInput({
-	id: "$1",
-	name: "$1",
-	label: {
-		text: "${2:Label text}"
+	"id": "$1",
+	"name": "$1",
+	"label": {
+		"text": "${2:Label text}"
 	},
-	hint: {
-		text: "${3:Hint text}"
+	"hint": {
+		"text": "${3:Hint text}"
 	}
 }) }}$4
 ]]></content>

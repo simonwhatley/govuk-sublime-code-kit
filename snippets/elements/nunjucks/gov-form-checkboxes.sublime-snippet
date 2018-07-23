@@ -1,17 +1,17 @@
 <snippet>
 	<content><![CDATA[
 {{ govukCheckboxes({
-	idPrefix: "$1",
-	name: "$1",
-	fieldset: {
-		legend: {
-			text: "${2:Legend text}",
-			isPageHeading: ${3:true},
-			classes: "govuk-fieldset__legend--${4:xl}"
+	"idPrefix": "$1",
+	"name": "$1",
+	"fieldset": {
+		"legend": {
+			"text": "${2:Legend text}",
+			"isPageHeading": ${3:true},
+			"classes": "${4:heading-xlarge}"
 		}
 	},
-	hint: {
-		text: "$5"
+	"hint": {
+		"text": "$5"
 	},
 	items: [
 		${6:Use gov-form-option snippet}

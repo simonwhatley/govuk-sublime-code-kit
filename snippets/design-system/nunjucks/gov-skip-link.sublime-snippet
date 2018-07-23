@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 {{ govukSkipLink({
-	text: "Skip to main content",
-	href: "#content"
+	"text": "Skip to main content",
+	"href": "#content"
 }) }}$1
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->

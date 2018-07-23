@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 {
-	text: "$1",
-	href: "$2"
+	"text": "$1",
+	"href": "$2"
 }$3
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->

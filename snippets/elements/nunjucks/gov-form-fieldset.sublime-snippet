@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
 {{ govukFieldset({
-	legend: {
-		text: "${1:Legend text}",
-		classes: "govuk-fieldset__legend--${2:xl|l|m}",
-		isPageHeading: ${3:true|false}
+	"legend": {
+		"text": "${1:Legend text}",
+		"classes": "${2:heading-xlarge}",
+		"isPageHeading": ${3:true|false}
 	}
 }) }}$4
 ]]></content>

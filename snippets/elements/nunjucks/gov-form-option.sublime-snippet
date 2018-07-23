@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 {
-	value: "$1",
-	text: "$2"
+	"value": "$1",
+	"text": "$2"
 }$3
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->

@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 {{ govukWarningText({
-	text: "${1:Warning text}",
-	iconFallbackText: "${2:Fallback text}"
+	"text": "${1:Warning text}",
+	"iconFallbackText": "${2:Fallback text}"
 }) }}$3
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->

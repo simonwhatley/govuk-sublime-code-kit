@@ -10,7 +10,7 @@
 	<li>
 		${3:List item}
 	</li>
-</ul>
+</ul>$4
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gov-list</tabTrigger>

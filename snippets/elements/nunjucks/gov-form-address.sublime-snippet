@@ -1,54 +1,54 @@
 <snippet>
 	<content><![CDATA[
 {% call govukFieldset({
-	legend: {
-		text: "${1:What is your address?}",
-		classes: "govuk-fieldset__legend--${2:xl}",
-		isPageHeading: ${3:true}
+	"legend": {
+		"text": "${1:What is your address?}",
+		"classes": "govuk-fieldset__legend--${2:xl}",
+		"isPageHeading": ${3:true}
 	}
 }) %}
 
 	{{ govukInput({
-		id: "address-line-1",
-		name: "address-line-1",
-		label: {
-			html: 'Building and street <span class="govuk-visually-hidden">line 1 of 2</span>'
+		"id": "address-line-1",
+		"name": "address-line-1",
+		"label": {
+			"html": 'Building and street <span class="govuk-visually-hidden">line 1 of 2</span>'
 		}
 	}) }}
 
 	{{ govukInput({
-		id: "address-line-2",
-		name: "address-line-2",
-		label: {
-			html: '<span class="govuk-visually-hidden">Building and street line 2 of 2</span>'
+		"id": "address-line-2",
+		"name": "address-line-2",
+		"label": {
+			"html": '<span class="govuk-visually-hidden">Building and street line 2 of 2</span>'
 		}
 	}) }}
 
 	{{ govukInput({
-		id: "address-town",
-		name: "address-town",
-		label: {
-			text: "Town or city"
+		"id": "address-town",
+		"name": "address-town",
+		"label": {
+			"text": "Town or city"
 		},
-		classes: "govuk-!-width-two-thirds"
+		"classes": "govuk-!-width-two-thirds"
 	}) }}
 
 	{{ govukInput({
-		id: "address-county",
-		name: "address-county",
-		label: {
-			text: "County"
+		"id": "address-county",
+		"name": "address-county",
+		"label": {
+			"text": "County"
 		},
-		classes: "govuk-!-width-two-thirds"
+		"classes": "govuk-!-width-two-thirds"
 	}) }}
 
 	{{ govukInput({
-		id: "address-postcode",
-		name: "address-postcode",
-		label: {
-			text: "Postcode"
+		"id": "address-postcode",
+		"name": "address-postcode",
+		"label": {
+			"text": "Postcode"
 		},
-		classes: "govuk-input--width-10"
+		"classes": "govuk-input--width-10"
 	}) }}
 
 {% endcall %}$4

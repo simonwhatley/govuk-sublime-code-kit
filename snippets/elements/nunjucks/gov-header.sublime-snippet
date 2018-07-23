@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 {{ govukHeader({
-	homepageUrl: "${1:#}"
+	"homepageUrl": "${1:#}"
 }) }}$2
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->

@@ -1,27 +1,27 @@
 <snippet>
 	<content><![CDATA[
 {{ govukDateInput({
-	id: "${1:date}",
-	name: "${1:date}",
-	fieldset: {
-		legend: {
-			text: "${2:Legend text}",
-			isPageHeading: ${3:true},
-			classes: "govuk-fieldset__legend--${4:xl}"
+	"id": "${1:date}",
+	"name": "${1:date}",
+	"fieldset": {
+		"legend": {
+			"text": "${2:Legend text}",
+			"isPageHeading": ${3:true},
+			"classes": "${4:heading-xlarge}"
 		}
 	},
-	hint: {
-		text: "${5:For example, 31 3 1980}"
+	"hint": {
+		"text": "${5:For example, 31 3 1980}"
 	},
-	items: [
+	"items": [
 		{
-			name: "day"
+			"name": "day"
 		},
 		{
-			name: "month"
+			"name": "month"
 		},
 		{
-			name: "year"
+			"name": "year"
 		}
 	]
 }) }}$6

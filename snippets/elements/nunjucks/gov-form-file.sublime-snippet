@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
 {{ govukFileUpload({
-	id: "${1:file-upload-1}",
-	name: "${1:file-upload-1}",
-	label: {
-		text: "${2:Upload a file}"
+	"id": "${1:file-upload-1}",
+	"name": "${1:file-upload-1}",
+	"label": {
+		"text": "${2:Upload a file}"
 	}
 }) }}$3
 ]]></content>

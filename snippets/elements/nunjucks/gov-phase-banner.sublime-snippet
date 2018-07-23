@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
 {{ govukPhaseBanner({
-	tag: {
-		text: "${1:Alpha|Beta}"
+	"tag": {
+		"text": "${1:Alpha|Beta}"
 	},
-	html: '${2:This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.}'
+	"html": '${2:This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.}'
 }) }}$3
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->

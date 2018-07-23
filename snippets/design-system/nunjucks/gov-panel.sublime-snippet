@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
 {{ govukPanel({
-	titleText: "${1:Title text}",
-	html: "Your reference number is<br><strong>$2</strong>"
+	"titleText": "${1:Title text}",
+	"html": "Your reference number is<br><strong>$2</strong>"
 }) }}$3
 ]]></content>
   <!-- Set a tabTrigger to define how to trigger the snippet -->

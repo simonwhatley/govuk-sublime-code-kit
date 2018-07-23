@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 {{ govukBreadcrumbs({
-	items: [
+	"items": [
 		${1:Use gov-link-item snippet}
 	]
 }) }}$3

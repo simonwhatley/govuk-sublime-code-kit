@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 {{ govukInsetText({
-	text: "${1:Text}"
+	"text": "${1:Text}"
 }) }}$2
 ]]></content>
 	<!-- Set a tabTrigger to define how to trigger the snippet -->
