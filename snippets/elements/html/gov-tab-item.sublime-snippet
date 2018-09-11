@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<li class="govuk-tabs__list-item">
-  	<a class="govuk-tabs__tab" href="#${1:section-name}">
+<li>
+  	<a href="#${1:section-name}">
      	${2:Tab label}
     </a>
 </li>$3
