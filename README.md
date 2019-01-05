@@ -16,13 +16,13 @@ Using the GOV.UK Elements snippets requires the installation of the [GOV.UK Prot
 ## Support
 This repository is maintained by Simon Whatley. If you’ve got a question or need support you can:
 
-* Email [support@humanedesign.co](support@humanedesign.co) putting the repository name in the subject line.
+* Email support@humanedesign.co putting the repository name in the subject line.
 * [View known issues on GitHub](https://github.com/whatterz/govuk-sublime-code-kit/issues).
 
 ## Contributing
 If you’ve got an idea or suggestion you can:
 
-* Email [contribute@humanedesign.co](contribute@humanedesign.co) putting the repository name in the subject line.
+* Email contribute@humanedesign.co putting the repository name in the subject line.
 * [Create a GitHub issue](https://github.com/whatterz/govuk-sublime-code-kit/issues).
 
 ## Related
