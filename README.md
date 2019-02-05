@@ -26,7 +26,7 @@ If you’ve got an idea or suggestion you can:
 * [Create a GitHub issue](https://github.com/whatterz/govuk-sublime-code-kit/issues).
 
 ## Related
-- [Nunjucks snippets for Sublime Text](https://github.com/whatterz/sublime-language-nunjucks)
+- [Nunjucks language for Sublime Text](https://github.com/whatterz/sublime-language-nunjucks)
 - GOV.UK [Nunjucks snippets for Atom](https://github.com/whatterz/govuk-atom-code-kit)
 
 ## Licence
